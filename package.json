@@ -1,0 +1,20 @@
+{
+  "name": "wps-client-feedback",
+  "version": "1.0.0",
+  "description": "WPS 客户端升级提示落地页",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp -f ./src/scripts/build/index.js"
+  },
+  "author": "baiyunsong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.2"
+  }
+}

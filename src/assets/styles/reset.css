@@ -1,0 +1,80 @@
+/* stylelint-disable */
+/**
+ * 这里存放重置样式
+ */
+ body,
+ div,
+ ul,
+ li,
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ dl,
+ dt,
+ dd,
+ a,
+ span,
+ image,
+ i,
+ button,
+ ::before,
+ ::after,
+ aside,
+ nav,
+ article,
+ section {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  font-family: Helvetica, Segoe UI, Avenir,  Microsoft yahei, Arial, Roboto,
+    sans-serif;
+  background: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+ 
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  padding-inline-start: 0;
+}
+
+a {
+  color: #222226;
+  outline: none;
+  text-decoration: none;
+}
+ 
+ button {
+   outline: none;
+ }
+ 
+input {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+ 
